@@ -5,7 +5,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "mongodb": "^2.2.33",
-    "underscore": "^1.8.3"
+    "google-search": "^0.0.5"
   },
   "main": "server.js",
   "scripts": {

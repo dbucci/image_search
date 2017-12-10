@@ -1,7 +1,7 @@
 exports.search = function(query, offset, cb) {
   var key = process.env.GKEY
     , cx = process.env.GCX
-    , GoogleSearch = require('../helpers/google-search')
+    , GoogleSearch = require('google-search')
     , googleSearch = new GoogleSearch({
     key: key,
     cx: cx
