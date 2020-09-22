@@ -4,7 +4,7 @@
   "description": "app for image search",
   "dependencies": {
     "express": "^4.16.2",
-    "mongodb": "^2.2.33",
+    "mongodb": ">=3.1.13",
     "google-search": "^0.0.5"
   },
   "main": "server.js",
